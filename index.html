@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+      <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
   </head>
-  <body>
-    <a-assets>
-          <a-asset-item id="room" src="museum.dae"></a-asset-item>
-    </a-assets>
-    <a-scene>
-         <a-entity collada-model="#room"></a-entity>
-        <a-entity light="color: #AFA; intensity: 1.5" position="-1 1 0"></a-entity>
-        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-        <a-sky color="#ECECEC"></a-sky>
-    </a-scene>
-  <body>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <body>
+        <a-assets>
+            <a-asset-item id="room" src="museum.dae"></a-asset-item>
+        </a-assets>
+        <a-scene>
+            <a-entity collada-model="#room"></a-entity>
+            <a-entity light="color: #AFA; intensity: 1.5" position="-1 1 0"></a-entity>
+            <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+            <a-sky color="#ECECEC"></a-sky>
+        </a-scene>
+    <body>
 </html>
