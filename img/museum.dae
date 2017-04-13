@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.76.0 commit date:2015-09-23, commit time:14:02, hash:e24ea81</authoring_tool>
     </contributor>
-    <created>2017-04-07T09:49:50</created>
-    <modified>2017-04-07T09:49:50</modified>
+    <created>2017-04-13T13:18:08</created>
+    <modified>2017-04-13T13:18:08</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -492,7 +492,7 @@
         <instance_camera url="#Camera-camera"/>
       </node>
       <node id="Plane" name="Plane" type="NODE">
-        <matrix sid="transform">10 0 0 0 0 10 0 0 0 0 10 0 0 0 0 1</matrix>
+        <matrix sid="transform">5 0 0 0 0 5 0 0 0 0 5 0 0 0 0 1</matrix>
         <instance_geometry url="#Plane-mesh" name="Plane">
           <bind_material>
             <technique_common>
@@ -502,7 +502,7 @@
         </instance_geometry>
       </node>
       <node id="Circle" name="Circle" type="NODE">
-        <matrix sid="transform">5.91863e-8 0 1 9.99 0 0.7839462 0 -0.8353494 -0.7839462 0 7.54979e-8 6.382027 0 0 0 1</matrix>
+        <matrix sid="transform">2.95931e-8 0 0.5 4.995 0 0.3919731 0 -0.4176747 -0.3919731 0 3.7749e-8 3.191013 0 0 0 1</matrix>
         <instance_geometry url="#Circle-mesh" name="Circle">
           <bind_material>
             <technique_common>
@@ -513,11 +513,11 @@
         </instance_geometry>
       </node>
       <node id="Guillotine" name="Guillotine" type="NODE">
-        <matrix sid="transform">0.01284898 0 0 -0.371357 0 9.70071e-10 -0.01284898 7.580831 0 0.01284898 9.70071e-10 0.3000001 0 0 0 1</matrix>
+        <matrix sid="transform">0.006424491 0 0 -0.1856785 0 4.85036e-10 -0.006424491 3.790415 0 0.006424491 4.85036e-10 0.1500001 0 0 0 1</matrix>
         <instance_geometry url="#Guillotine-mesh" name="Guillotine"/>
       </node>
       <node id="Circle_001" name="Circle_001" type="NODE">
-        <matrix sid="transform">5.91863e-8 0 1 9.99 0 0.7839462 0 -0.8353494 -0.7839462 0 7.54979e-8 6.382027 0 0 0 1</matrix>
+        <matrix sid="transform">2.95931e-8 0 0.5 4.995 0 0.3919731 0 -0.4176747 -0.3919731 0 3.7749e-8 3.191013 0 0 0 1</matrix>
         <instance_geometry url="#Circle_001-mesh" name="Circle_001">
           <bind_material>
             <technique_common>
@@ -529,7 +529,7 @@
         </instance_geometry>
       </node>
       <node id="Icosphere" name="Icosphere" type="NODE">
-        <matrix sid="transform">1 0 0 3.302721 0 1 0 2.998305 0 0 1 14.16852 0 0 0 1</matrix>
+        <matrix sid="transform">0.5 0 0 1.651361 0 0.5 0 1.499153 0 0 0.5 7.084258 0 0 0 1</matrix>
         <instance_geometry url="#Icosphere-mesh" name="Icosphere">
           <bind_material>
             <technique_common>
@@ -539,7 +539,7 @@
         </instance_geometry>
       </node>
       <node id="Icosphere_001" name="Icosphere_001" type="NODE">
-        <matrix sid="transform">1 0 0 -3.291731 0 1 0 2.998305 0 0 1 14.16852 0 0 0 1</matrix>
+        <matrix sid="transform">0.5 0 0 -1.645866 0 0.5 0 1.499153 0 0 0.5 7.084258 0 0 0 1</matrix>
         <instance_geometry url="#Icosphere_001-mesh" name="Icosphere_001">
           <bind_material>
             <technique_common>
@@ -549,7 +549,7 @@
         </instance_geometry>
       </node>
       <node id="Icosphere_002" name="Icosphere_002" type="NODE">
-        <matrix sid="transform">1 0 0 -3.291731 0 1 0 -3.2263 0 0 1 14.16852 0 0 0 1</matrix>
+        <matrix sid="transform">0.5 0 0 -1.645866 0 0.5 0 -1.61315 0 0 0.5 7.084258 0 0 0 1</matrix>
         <instance_geometry url="#Icosphere_002-mesh" name="Icosphere_002">
           <bind_material>
             <technique_common>
@@ -559,7 +559,7 @@
         </instance_geometry>
       </node>
       <node id="Icosphere_003" name="Icosphere_003" type="NODE">
-        <matrix sid="transform">1 0 0 3.302721 0 1 0 -3.2263 0 0 1 14.16852 0 0 0 1</matrix>
+        <matrix sid="transform">0.5 0 0 1.651361 0 0.5 0 -1.61315 0 0 0.5 7.084258 0 0 0 1</matrix>
         <instance_geometry url="#Icosphere_003-mesh" name="Icosphere_003">
           <bind_material>
             <technique_common>
