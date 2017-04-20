@@ -10,9 +10,10 @@
         <a-assets>
             <a-asset-item id="room" src="/img/museum.dae"></a-asset-item>
             <a-asset-item id="roomObj" src="/img/museum.obj"></a-asset-item>
+            <a-asset-item id="roomMtl" src="/img/museum.mtl"></a-asset-item>
         </a-assets>
         <a-scene>
-            <a-entity obj-model="obj: #roomObj; mtl: #tree-mtl"></a-entity>
+            <a-entity obj-model="obj: #roomObj; mtl: #roomMtl"></a-entity>
             <!-- <a-entity collada-model="#room"></a-entity>-->
             <a-entity light="color: #fc0000; intensity: 1" position="-1 1 0"></a-entity>
             <a-entity light="color: #ffffff; intensity: 1" position="0 1 0"></a-entity>
