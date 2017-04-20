@@ -2,6 +2,8 @@
 <html>
   <head>
       <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+      <script src="js/aframe-teleport-controls.min.js"></script>
+      <script src="js/mobile_component.js"></script>
   </head>
     <body>
         <script>
@@ -12,17 +14,24 @@
             <a-asset-item id="roomObj" src="/img/museum.obj"></a-asset-item>
             <a-asset-item id="roomMtl" src="/img/museum.mtl"></a-asset-item>
         </a-assets>
-        <a-scene>
+        <a-scene>     
+            <!-- Please -->
+            <a-entity mobile></a-entity>
+            
+            <!-- Main Objects -->
             <a-entity obj-model="obj: #roomObj; mtl: #roomMtl"></a-entity>
-            <!-- <a-entity collada-model="#room"></a-entity>-->
-            <a-entity light="color: #fc0000; intensity: 1" position="-1 1 0"></a-entity>
+            
+            <!-- Lights -->
+            <a-entity light="color: #ffc5c5; intensity: 1" position="-1 1 0"></a-entity>
             <a-entity light="color: #ffffff; intensity: 1" position="0 1 0"></a-entity>
-            <a-entity light="color: #0000ff; intensity: 1" position="1 1 1"></a-entity>
+            <a-entity light="color: rgb(214, 214, 255); intensity: 1" position="1 1 1"></a-entity>
+            
+            <!-- Basics -->
             <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
             <a-sky color="#ECECEC"></a-sky>
             <a-entity camera="userHeight: 1.6" look-controls></a-entity>
-            <script src="js/aframe-teleport-controls.min.js"></script>
-            <script src="js/mobile_component.js"></script>
+            
+
         </a-scene>
     <body>
 </html>
