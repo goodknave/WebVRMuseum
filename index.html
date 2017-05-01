@@ -13,7 +13,7 @@
             <a-asset-item id="roomObj" src="models/guilotine.dae"></a-asset-item>
             <a-asset-item id="roomMtl" src="models/museum.mtl"></a-asset-item>-->
             
-            <a-asset-item id="mayaTest" src="models/guilotine.dae"></a-asset-item>
+            <a-asset-item id="mayaTest" src="models/again.dae"></a-asset-item>
         </a-assets>
         <a-scene>     
             <!-- Please -->
@@ -25,9 +25,9 @@
             <img id="room-texture" src="textures/tile.jpg">
             <img id="floor_normal-texture" src="textures/tile-normal.jpg">
             <img id="floor_normal-texture" src="textures/tile-bump.jpg">
-            -->
-            <a-entity collada-model="url(models/frommaya.dae)"></a-entity>
             <a-entity collada-model="url(models/guilotine.dae)"></a-entity>
+            -->
+            <a-entity collada-model="#mayaTest"></a-entity>
 
             <!-- Lights -->
             <a-entity light="color: #ffc5c5; intensity: 1" position="-1 1 0"></a-entity>
@@ -35,8 +35,8 @@
             <a-entity light="color: rgb(214, 214, 255); intensity: 1" position="1 1 1"></a-entity>
             
             <!-- Basics -->
-            <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-            <a-sky color="#bad7ff"></a-sky>
+            <!--<a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>-->
+            <a-sky color="#ECECEC"></a-sky>
             <a-entity camera="userHeight: 1.6" look-controls></a-entity>
             
 
