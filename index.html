@@ -10,9 +10,11 @@
             window.scrollTo(0,1);
         </script>
         <a-assets>
-            <a-asset-item id="roomObj" src="models/museum.obj"></a-asset-item>
+            <!--<a-asset-item id="roomObj" src="models/museum.obj"></a-asset-item>
             <a-asset-item id="roomObj" src="models/guilotine.dae"></a-asset-item>
-            <a-asset-item id="roomMtl" src="models/museum.mtl"></a-asset-item>
+            <a-asset-item id="roomMtl" src="models/museum.mtl"></a-asset-item>-->
+            
+            <a-asset-item id="mayaTest" src="models/frommaya.dae"></a-asset-item>
         </a-assets>
         <a-scene>     
             <!-- Please -->
@@ -24,8 +26,9 @@
             <img id="room-texture" src="textures/tile.jpg">
             <img id="floor_normal-texture" src="textures/tile-normal.jpg">
             <img id="floor_normal-texture" src="textures/tile-bump.jpg">
-            -->
             <a-entity collada-model="url(models/guilotine.dae)"></a-entity>
+            -->
+            <a-entity collada-model="#mayaTest"></a-entity>
 
             <!-- Lights -->
             <a-entity light="color: #ffc5c5; intensity: 1" position="-1 1 0"></a-entity>
