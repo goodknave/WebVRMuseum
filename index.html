@@ -7,9 +7,11 @@
 
         <a-assets>
             <!--<a-asset-item id="roomObj" src="models/museum.obj"></a-asset-item>
-            <a-asset-item id="roomMtl" src="models/museum.mtl"></a-asset-item>-->
+            <a-asset-item id="roomMtl" src="models/museum.mtl"></a-asset-item>
             <a-asset-item id="mayaTest" src="models/guilotine.dae"></a-asset-item>
-            <a-asset-item id="roomObj" src="models/guilotine.dae"></a-asset-item>
+            <a-asset-item id="roomObj" src="models/guilotine.dae"></a-asset-item>-->
+            <a-asset-item id="cube-obj" src="models/objfrommaya.obj"></a-asset-item>
+            <a-asset-item id="cube-mtl" src="models/objfrommaya.mtl"></a-asset-item>
         </a-assets>
         <a-scene>     
             <!-- Please -->
@@ -21,10 +23,11 @@
             <img id="room-texture" src="textures/tile.jpg">
             <img id="floor_normal-texture" src="textures/tile-normal.jpg">
             <img id="floor_normal-texture" src="textures/tile-bump.jpg">
-            -->
-            <a-entity id="mayaTest"></a-entity>
-            <a-entity id="guillotine"></a-entity>
-
+            <a-entity id="maya-obj"></a-entity>
+            <a-entity id="guillotine"></a-entity>-->
+            
+            <a-entity obj-model="obj: #cube-obj; mtl: #cube-mtl"></a-entity></a-scene>
+            
             <!-- Lights -->
             <a-entity light="color: #ffffff; intensity: 1" position="0 1 0"></a-entity>
             
