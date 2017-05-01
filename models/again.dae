@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
-  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-05-01T09:28:56Z</created><keywords></keywords><modified>2017-05-01T09:28:56Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-05-01T09:35:37Z</created><keywords></keywords><modified>2017-05-01T09:35:37Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
   <library_images>
     <image id="file6-image" name="file6"><init_from>file:///Users/Evan/Desktop/museum/#hosted/textures/tile.jpg</init_from></image>
   </library_images>
@@ -144,7 +144,7 @@
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="again" name="again">
-      <node name="pCube1" id="pCube1" sid="pCube1"><matrix sid="matrix">21.431810 0.000000 0.000000 0.000000 0.000000 21.431810 0.000000 0.000000 0.000000 0.000000 21.431810 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pCube1-lib"><bind_material><technique_common><instance_material symbol="lambert2" target="#lambert2"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="pCube1" id="pCube1" sid="pCube1"><matrix sid="matrix">77.347144 0.000000 0.000000 0.000000 0.000000 77.347144 0.000000 0.000000 0.000000 0.000000 77.347144 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pCube1-lib"><bind_material><technique_common><instance_material symbol="lambert2" target="#lambert2"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
       <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
     </visual_scene>
   </library_visual_scenes>
