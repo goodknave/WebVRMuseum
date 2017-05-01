@@ -12,6 +12,8 @@
             <a-asset-item id="roomObj" src="models/guilotine.dae"></a-asset-item>-->
             <a-asset-item id="cube-obj" src="models/objfrommaya.obj"></a-asset-item>
             <a-asset-item id="cube-mtl" src="models/objfrommaya.mtl"></a-asset-item>
+            <a-asset-item id="guillotine-obj" src="models/guillotine.obj"></a-asset-item>
+
         </a-assets>
         <a-scene>     
             <!-- Please -->
@@ -27,6 +29,7 @@
             <a-entity id="guillotine"></a-entity>-->
             
             <a-entity obj-model="obj: #cube-obj; mtl: #cube-mtl"></a-entity></a-scene>
+            <a-entity obj-model="obj: #guillotine-obj"></a-entity></a-scene>
             
             <!-- Lights -->
             <a-entity light="color: #ffffff; intensity: 1" position="0 1 0"></a-entity>
